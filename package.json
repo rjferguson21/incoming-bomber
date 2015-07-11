@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "lodash": "^3.10.0",
     "mqtt": "^0.3.13",
     "mqtt-handler": "git+ssh://git@github.com:rjferguson21/mqtt-handler.git#master",
     "play-sound": "0.0.5"
