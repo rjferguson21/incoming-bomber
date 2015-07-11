@@ -1,6 +1,6 @@
 client = (require('./lib/mqtt')).init()
 Handler = require 'mqtt-handler'
-player = require('play-sound')()
+player = require('play-sound')(player: 'mplayer')
 
 handler = new Handler(subscriptions: ['MyMQTT/#', 'envisalink/#', '$SYS/broker/clients/active'], client)
 
