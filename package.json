@@ -1,0 +1,17 @@
+{
+  "name": "incoming-bomber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "mqtt": "^0.3.13",
+    "mqtt-handler": "git+ssh://git@github.com:rjferguson21/mqtt-handler.git#master",
+    "play-sound": "0.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
